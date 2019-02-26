@@ -24,6 +24,7 @@ class GameScene: SKScene, SlotMachineManagerDelegate {
     private var bet5Node: Button!
     private var bet50Node: Button!
     private var spinNode: Button!
+    private var machineNode = SKSpriteNode()
     
     // Initialize the screen adding the nodes and their initial states
     // It also preload the sounds used during the game
@@ -34,7 +35,15 @@ class GameScene: SKScene, SlotMachineManagerDelegate {
         
         let machineNode = SKSpriteNode(imageNamed: "slotmachine")
         self.addChild(machineNode)
+       /*
+        let bgTexture = SKTexture(imageNamed: "slotmachine")
+        machineNode = SKSpriteNode(texture: bgTexture)
         
+        machineNode.size.height = self.frame.height
+        machineNode.size.width = self.frame.width
+        machineNode.zPosition = 1
+        self.addChild(machineNode)
+        */
         self.backgroundColor = UIColor.white
         
         let slot1Node = SKSpriteNode(imageNamed: "seven")
@@ -125,7 +134,7 @@ class GameScene: SKScene, SlotMachineManagerDelegate {
         self.addChild(jackpotNode)
         
         
-        preloadSounds()
+        //preloadSounds()
     }
     
     // Called before each frame is rendered
@@ -139,6 +148,7 @@ class GameScene: SKScene, SlotMachineManagerDelegate {
     }
     
     // Preload the sounds used during the game
+    /*
     private func preloadSounds() {
         let sounds = ["machine_button", "disabled_button", "spinning"]
         for sound in sounds {
@@ -152,7 +162,7 @@ class GameScene: SKScene, SlotMachineManagerDelegate {
             }
         }
     }
-    
+    */
     // Closes the app
     private func turnOff() {
         UIControl().sendAction(#selector(URLSessionTask.suspend), to: UIApplication.shared, for: nil)

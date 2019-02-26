@@ -15,6 +15,8 @@
 		558AADB1221F6D2F0041E0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AADAF221F6D2F0041E0D0 /* Main.storyboard */; };
 		558AADB3221F6D2F0041E0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558AADB2221F6D2F0041E0D0 /* Assets.xcassets */; };
 		558AADB6221F6D2F0041E0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AADB4221F6D2F0041E0D0 /* LaunchScreen.storyboard */; };
+		558AADBE221F80740041E0D0 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AADBD221F80740041E0D0 /* Button.swift */; };
+		558AADC0221F80B30041E0D0 /* SlotMachineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AADBF221F80B30041E0D0 /* SlotMachineManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		558AADB2221F6D2F0041E0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558AADB5221F6D2F0041E0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558AADB7221F6D2F0041E0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558AADBD221F80740041E0D0 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		558AADBF221F80B30041E0D0 /* SlotMachineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 				558AADA7221F6D2F0041E0D0 /* GameScene.sks */,
 				558AADA9221F6D2F0041E0D0 /* Actions.sks */,
 				558AADAB221F6D2F0041E0D0 /* GameScene.swift */,
+				558AADBD221F80740041E0D0 /* Button.swift */,
 				558AADAD221F6D2F0041E0D0 /* GameViewController.swift */,
+				558AADBF221F80B30041E0D0 /* SlotMachineManager.swift */,
 				558AADAF221F6D2F0041E0D0 /* Main.storyboard */,
 				558AADB2221F6D2F0041E0D0 /* Assets.xcassets */,
 				558AADB4221F6D2F0041E0D0 /* LaunchScreen.storyboard */,
@@ -148,7 +154,9 @@
 			files = (
 				558AADAC221F6D2F0041E0D0 /* GameScene.swift in Sources */,
 				558AADAE221F6D2F0041E0D0 /* GameViewController.swift in Sources */,
+				558AADC0221F80B30041E0D0 /* SlotMachineManager.swift in Sources */,
 				558AADA6221F6D2F0041E0D0 /* AppDelegate.swift in Sources */,
+				558AADBE221F80740041E0D0 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
